@@ -1,4 +1,4 @@
-import type { CardProps } from "@/interfaces";
+import { type CardProps } from "@/interfaces";
 
 const Card = ({ title, content }: CardProps) => {
   return (
