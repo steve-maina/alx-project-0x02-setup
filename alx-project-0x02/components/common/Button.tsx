@@ -1,4 +1,4 @@
-import { ButtonProps } from "@/interfaces";
+import { type ButtonProps } from "@/interfaces";
 
 const Button = ({ size, shape, title }: ButtonProps) => {
   let width: number;
