@@ -1,12 +1,12 @@
 import Header from "@/components/layout/Header";
 
-export default function Home() {
+const HomePage = () => {
   return (
     <div className="flex h-screen flex-col">
       <Header />
-      <div className="flex justify-center">
-        <p>Welcome!</p>
-      </div>
+      <h1 className="text-center">Home Page</h1>
     </div>
   );
-}
+};
+
+export default HomePage;
